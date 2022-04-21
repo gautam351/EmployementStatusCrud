@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="5.792">
+  <testsuite name="testing for first time" errors="0" failures="0" skipped="0" timestamp="2022-04-21T05:17:13" time="5.656" tests="7">
+    <testcase classname="testing for first time testing inital db documents" name="testing for first time testing inital db documents" time="0.028">
+    </testcase>
+    <testcase classname="testing for first time register a employee" name="testing for first time register a employee" time="0.145">
+    </testcase>
+    <testcase classname="testing for first time don&apos;t register the already registered employee" name="testing for first time don&apos;t register the already registered employee" time="0.008">
+    </testcase>
+    <testcase classname="testing for first time login a employee" name="testing for first time login a employee" time="0.097">
+    </testcase>
+    <testcase classname="testing for first time get detail of a particular employee" name="testing for first time get detail of a particular employee" time="0.119">
+    </testcase>
+    <testcase classname="testing for first time change status of an employee" name="testing for first time change status of an employee" time="0.017">
+    </testcase>
+    <testcase classname="testing for first time delete a employee" name="testing for first time delete a employee" time="0.031">
+    </testcase>
+  </testsuite>
+</testsuites>

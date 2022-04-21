@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 //to provide the connection uri
 const DB_URI =
-  "mongodb+srv://gautampraveen351:eGc27Q8qSGmTVrDI@cluster0.obsfe.mongodb.net/employee?retryWrites=true&w=majority";
+  "mongodb://localhost:27017/task01";
 //connect function
 const connectDb = () => {
   mongoose
@@ -14,6 +14,7 @@ const connectDb = () => {
       console.log(err);
     });
 };
+
 
 //exportion so that it can be used in server.js
 module.exports = connectDb;
